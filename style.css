@@ -3,10 +3,17 @@
     padding: 50px 250px;
 }
 
+.heading{
+    font-size: 32px;
+    text-align: center;
+    text-decoration: underline gray;
+    margin: 10px;
+    font-family: 'DM Sans', sans-serif; 
+    
+}
 a {
     color: #050d18;
 }
-
 .container {
     border: #000000 2px solid;
     display: flex;
@@ -40,12 +47,17 @@ a {
    text-align: center;
 }
 h3{
+    color: #15396a;
     font-weight: bold;
     font-size: 24px;
     text-transform: capitalize;
     text-decoration: underline;
 }
-.resume .resume-item {
+.head{
+    text-align: center;
+    color: black
+}
+.resume .part {
 
     padding: 0 0 20px 20px;
     margin-top: -2px;
@@ -53,7 +65,7 @@ h3{
     position: relative;
 }
 
-.resume .resume-item h4 {
+.resume .part h4 {
     line-height: 18px;
     font-size: 18px;
     font-weight: 600;
@@ -63,7 +75,7 @@ h3{
     margin-bottom: 10px;
 }
 
-.resume .resume-item h5 {
+.resume .part h5 {
     font-size: 16px;
     background: #e0dfdf;
     padding: 0px 10px;
@@ -72,15 +84,15 @@ h3{
     margin-bottom: 5px;
 }
 
-.resume .resume-item ul {
+.resume .part ul {
     padding-left: 20px;
 }
 
-.resume .resume-item ul li {
+.resume .part ul li {
     padding-bottom: 10px;
 }
 
-.resume .resume-item::before {
+.resume .part::before {
     content: "";
     position: absolute;
     width: 16px;
