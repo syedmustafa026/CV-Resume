@@ -3,24 +3,26 @@
     padding: 50px 250px;
 }
 
-.heading{
+.heading {
     font-size: 32px;
     text-align: center;
     text-decoration: underline gray;
     margin: 10px;
-    font-family: 'DM Sans', sans-serif; 
-    
+    font-family: 'DM Sans', sans-serif;
+
 }
+
 a {
     color: #050d18;
 }
+
 .container {
     border: #000000 2px solid;
     display: flex;
     width: 90%;
     padding: 20px;
     background-color: #eeeeee;
-    font-family: 'DM Sans', sans-serif; 
+    font-family: 'DM Sans', sans-serif;
 }
 
 .img {
@@ -40,23 +42,27 @@ a {
     margin-right: 10px;
 
 }
-.name{
+
+.name {
     font-weight: bold;
     font-size: 26px;
     text-decoration: underline;
-   text-align: center;
+    text-align: center;
 }
-h3{
+
+h3 {
     color: #15396a;
     font-weight: bold;
     font-size: 24px;
     text-transform: capitalize;
     text-decoration: underline;
 }
-.head{
+
+.head {
     text-align: center;
     color: black
 }
+
 .resume .part {
 
     padding: 0 0 20px 20px;
